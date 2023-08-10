@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.05e0eddd.css",
+    "main.js": "/static/js/main.50e56c38.js",
+    "static/js/787.0075823d.chunk.js": "/static/js/787.0075823d.chunk.js",
+    "static/media/spiral.png": "/static/media/spiral.56ad60bf5de1952fa6dc.png",
+    "static/media/logo.png": "/static/media/logo.b916f62da2ec714370ad.png",
+    "static/media/waterfall.png": "/static/media/waterfall.17b9620de757145ba49e.png",
+    "static/media/agile.png": "/static/media/agile.13fc439497accbdf6f9d.png",
+    "index.html": "/index.html",
+    "main.05e0eddd.css.map": "/static/css/main.05e0eddd.css.map",
+    "main.50e56c38.js.map": "/static/js/main.50e56c38.js.map",
+    "787.0075823d.chunk.js.map": "/static/js/787.0075823d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05e0eddd.css",
+    "static/js/main.50e56c38.js"
+  ]
+}
