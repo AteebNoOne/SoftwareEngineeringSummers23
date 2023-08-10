@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 
-function SLDC() {
+function Home() {
     return (
         <div>
             <Header />
@@ -11,4 +11,4 @@ function SLDC() {
     );
 
 }
-export default SLDC;
+export default Home;
