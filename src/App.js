@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom"; // Import BrowserRouter as Router
+import Home from "./Pages/Home/Home";
+import Agile from "./Pages/SDLC/Agile/Agile";
+import Spiral from "./Pages/SDLC/Spiral/Spiral";
+import Waterfall from "./Pages/SDLC/Waterfall/Waterfall";
+import Error from "./Pages/Error/Error";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/sdlc/agile" element={<Agile />} />
+          <Route path="/sdlc/spiral" element={<Spiral />} />
+          <Route path="/sdlc/waterfall" element={<Waterfall />} />
+          <Route path="*" element={<Error />} />
+        </Routes>
+    </Router>
   );
 }
 

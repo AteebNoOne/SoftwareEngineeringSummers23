@@ -1,0 +1,24 @@
+.nav_container{
+    display: flex;
+    margin-top: 50px;
+}
+
+.nav_button1,.nav_button2{
+    margin-left: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .nav_container{
+        display: block;
+        margin-top: 20px;
+    }
+    .nav_button1{
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    .nav_button2{
+        margin-top: 5px;
+        margin-left: 7px;
+    }
+}

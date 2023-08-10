@@ -1,14 +1,16 @@
 import React from "react";
+import styles from './Error.module.css'
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 
-function SLDC() {
-    return (
+function Error(){
+    return(
         <div>
             <Header />
+            <h1>404 not found</h1>
             <Footer />
         </div>
     );
+};
 
-}
-export default SLDC;
+export default Error;
