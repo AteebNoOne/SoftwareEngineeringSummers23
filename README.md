@@ -15,7 +15,7 @@ This repository contains the code, documentation, and resources related to the p
 
 ## Live Demo
 
-You can access the live demo of the projects developed during the course at [https://ateebnoone.github.io/SoftwareEngineeringSummers23](https://ateebnoone.github.io/SoftwareEngineeringSummers23). Please note that this link will take you to the live demonstration of the software projects that have been created as part of the academic coursework.
+You can access the live demo of the projects developed during the course at [https://softwareengineeringsummers23.web.app/](https://softwareengineeringsummers23.web.app/). Please note that this link will take you to the live demonstration of the software projects that have been created as part of the academic coursework.
 
 ## Project Contributors
 
@@ -37,7 +37,7 @@ These students have worked diligently to create meaningful contributions to the 
 
 ## Home Page
 
-The home page of the demo showcases an overview of the projects and resources completed during the course. You can access it at [https://ateebnoone.github.io/SoftwareEngineeringSummers23](https://ateebnoone.github.io/SoftwareEngineeringSummers23) or by visiting the root route ("/").
+The home page of the demo showcases an overview of the projects and resources completed during the course. You can access it at [https://softwareengineeringsummers23.web.app/](https://softwareengineeringsummers23.web.app/) or by visiting the root route ("/").
 
 ## Software Development Life Cycle (SDLC)
 
@@ -49,23 +49,17 @@ Contributor: Mahnoor Shaikh
 
 The Agile model is an iterative and incremental approach to software development that focuses on collaboration, adaptability, and customer satisfaction. It emphasizes the importance of frequent feedback and the ability to respond to changing requirements throughout the development process.
 
-You can access the Agile model content at [https://ateebnoone.github.io/SoftwareEngineeringSummers23/sdlc/agile](https://ateebnoone.github.io/SoftwareEngineeringSummers23/sdlc/agile).
-
 ### Spiral Model
 
 Contributor: Rafay
 
 The Spiral model is a risk-driven SDLC model that combines iterative development with elements of the Waterfall model. It is particularly useful for projects where risk assessment and management are critical. The Spiral model involves multiple cycles of planning, risk analysis, engineering, and evaluation.
 
-You can access the Spiral model content at [https://ateebnoone.github.io/SoftwareEngineeringSummers23/sdlc/spiral](https://ateebnoone.github.io/SoftwareEngineeringSummers23/sdlc/spiral).
-
 ### Waterfall Model
 
 Contributor: Maham Majid
 
 The Waterfall model is a linear and sequential approach to software development. It divides the development process into distinct phases, including requirements analysis, design, implementation, testing, deployment, and maintenance. Each phase must be completed before moving on to the next.
-
-You can access the Waterfall model content at [https://ateebnoone.github.io/SoftwareEngineeringSummers23/sdlc/waterfall](https://ateebnoone.github.io/SoftwareEngineeringSummers23/sdlc/waterfall).
 
 ## Usage
 
