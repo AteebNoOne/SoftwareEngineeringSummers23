@@ -1,24 +1,103 @@
-.nav_container{
+/* Navbar.module.css */
+.nav_container {
     display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    width: 100%;
+    max-width: 400px;
+    background-color: #333;
     margin-top: 50px;
-}
+    border-radius: 5px;
+  }
+  
+  .nav_button1,
+  .nav_button2 {
+    position: relative;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 5%;
+  }
+  
+  .nav_button1:hover,
+  .nav_button2:hover {
+    background-color: blue;
+    font-size: 18px;
+  }
 
-.nav_button1,.nav_button2{
-    margin-left: 20px;
-}
-
-
-@media (max-width: 768px) {
-    .nav_container{
-        display: block;
-        margin-top: 20px;
+  .button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+  
+  .dropdown_button {
+    position: relative;
+  }
+  
+  .dropdown_menu {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    background-color: #333;
+    border: 1px solid #555;
+    display: flex;
+    flex-direction: column;
+    width: 100px; /* Adjust the width as needed */
+    padding: 10px; /* Add padding for spacing */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.2s, visibility 0.2s, transform 0.2s;
+  }
+  
+  .dropdown_button:focus + .dropdown_menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  
+  .menuItem {
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    border-bottom: 2px solid #000000;
+    font-size: 18px;
+  }
+  
+  
+  .menuItem:hover {
+    background-color: blue;
+    font-size: 24px;
+  }
+  
+    /* Responsive Styles */
+    @media screen and (max-width: 1200px) {
+        .nav_container {
+          flex-direction: column;
+          margin-top: 0;
+        }
+        .nav_button1,
+        .nav_button2 {
+          margin-bottom: 5px;
+        }
+      }
+      
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .nav_container {
+      flex-direction: column;
     }
-    .nav_button1{
-        margin-top: 5px;
-        margin-left: 5px;
+  
+    .nav_button1,
+    .nav_button2 {
+      margin-bottom: 10px;
     }
-    .nav_button2{
-        margin-top: 5px;
-        margin-left: 7px;
+  
+    .dropdown_menu {
+      width: 100%;
     }
-}
+  }
+  
