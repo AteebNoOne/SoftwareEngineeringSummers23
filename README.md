@@ -21,8 +21,8 @@ You can access the live demo of the projects developed during the course at [htt
 
 The following students have actively contributed to the projects and assignments in this repository:
 
-- Mahnoor Shaikh ([Mkayy55](https://github.com/Mkayy55))
-- Rafay ([Rafayali](https://github.com/Rafayali))
+- Mahnoor Fatima ([Mkayy55](https://github.com/Mkayy55))
+- Abdul Rafay ([Rafayali](https://github.com/Rafayali))
 - Maham Majid ([maham1128](https://github.com/maham1128))
 
 These students have worked diligently to create meaningful contributions to the software projects developed during the course.
@@ -45,13 +45,13 @@ In this section, you can explore various Software Development Life Cycle (SDLC) 
 
 ### Agile Model
 
-Contributor: Mahnoor Shaikh
+Contributor: Mahnoor Fatima
 
 The Agile model is an iterative and incremental approach to software development that focuses on collaboration, adaptability, and customer satisfaction. It emphasizes the importance of frequent feedback and the ability to respond to changing requirements throughout the development process.
 
 ### Spiral Model
 
-Contributor: Rafay
+Contributor: Abdul Raffay
 
 The Spiral model is a risk-driven SDLC model that combines iterative development with elements of the Waterfall model. It is particularly useful for projects where risk assessment and management are critical. The Spiral model involves multiple cycles of planning, risk analysis, engineering, and evaluation.
 
