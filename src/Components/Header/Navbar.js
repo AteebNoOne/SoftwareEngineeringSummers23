@@ -20,7 +20,7 @@ function Navbar() {
         </NavLink>
       </div>
       <div className={styles.nav_button1}>
-      <NavLink to="/sdlc/agile">
+      <NavLink to="/sdlc/waterfall">
         <button className={styles.button}>Waterfall</button>
         </NavLink>
       </div>

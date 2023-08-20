@@ -10,6 +10,8 @@ function Article() {
 
     const [currentFrame, setCurrentFrame] = useState(0);
 
+    
+
     useEffect(() => {
         let animationFrame;
         let lastScrollTime = 0;
@@ -63,6 +65,7 @@ function Article() {
         <article>
             <div className={styles.animationContainer}>
                 <img
+                    loading='lazy'
                     src={articleAnimationImages[currentFrame]}
                     alt={`Frame ${currentFrame + 1}`}
                     className={styles.animationImage}

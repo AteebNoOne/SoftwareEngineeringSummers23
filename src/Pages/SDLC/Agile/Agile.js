@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../../Components/Header/Header";
-import styles from "./Agile.module.css";
 import Footer from "../../../Components/Footer/Footer";
+import styles from "./Agile.module.css";
 
 function Agile() {
   return (

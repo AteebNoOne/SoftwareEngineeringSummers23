@@ -83,6 +83,6 @@ This repository is provided for educational purposes. All rights to the code and
 
 ---
 
-For any inquiries or assistance, please contact [Ma'am Erum Haris](mailto:erum.haris@example.com).
+For any inquiries or assistance, please contact [Ma'am Erum Haris](mailto:erum.haris@iqra.edu.pk).
 
 We hope you have an enriching learning experience during the "Software Engineering" course!

@@ -24,6 +24,12 @@
     height: 100%;
 }
 
+.footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
 @media (max-width: 850px) {
     .bg_image {
         top: 0px;

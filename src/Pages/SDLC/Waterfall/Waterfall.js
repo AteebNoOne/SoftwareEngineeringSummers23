@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../../Components/Header/Header";
+import Footer from '../../../Components/Footer/Footer';
 import styles from './Waterfall.module.css'
-import Footer from "../../../Components/Footer/Footer';
 
 function Waterfall() {
     return (
@@ -46,7 +46,9 @@ function Waterfall() {
                     </p>
                 </div>
             </div>
+            <div className={styles.footer}>
             <Footer />
+            </div>
         </>
     );
 }

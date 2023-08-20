@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom"; // Import BrowserRouter as Router
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Import BrowserRouter as Router
 import Home from "./Pages/Home/Home";
 import Agile from "./Pages/SDLC/Agile/Agile";
 import Spiral from "./Pages/SDLC/Spiral/Spiral";

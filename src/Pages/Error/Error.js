@@ -5,7 +5,7 @@ import Footer from "../../Components/Footer/Footer";
 
 function Error(){
     return(
-        <div>
+        <div className={styles.container}>
             <Header />
             <h1>404 not found</h1>
             <Footer />
