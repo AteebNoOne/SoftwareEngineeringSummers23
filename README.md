@@ -22,7 +22,7 @@ You can access the live demo of the projects developed during the course at [htt
 The following students have actively contributed to the projects and assignments in this repository:
 
 - Mahnoor Fatima ([Mkayy55](https://github.com/Mkayy55))
-- Abdul Rafay ([Rafayali](https://github.com/Rafayali))
+- Abdul Rafay ([Raffayali](https://github.com/raffayali))
 - Maham Majid ([maham1128](https://github.com/maham1128))
 
 These students have worked diligently to create meaningful contributions to the software projects developed during the course.
